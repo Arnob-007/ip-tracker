@@ -1,0 +1,49 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5vh;
+	padding-bottom: 100px;
+	background: url("./pattern-bg.png");
+	background-size: cover;
+}
+
+.header h2 {
+	color: white;
+}
+
+.header__search {
+	display: flex;
+	margin: 3vh;
+	height: 35px;
+	width: 35vw;
+	max-width: 350px;
+	min-width: 250px;
+	border-radius: 10px 20px 20px 10px;
+	background: white;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 0px 10px 10px 0px;
+	cursor: pointer;
+	background-color: #3f3f3f;
+}
+
+button img {
+	height: 10px;
+}
+
+input {
+	display: flex;
+	margin: 2%;
+	flex: 1;
+	padding: 10px;
+	outline: none;
+	border: none;
+}

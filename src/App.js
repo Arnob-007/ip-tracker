@@ -17,7 +17,7 @@ const App = () => {
 	};
 
 	useEffect(() => {
-		fetch(`http://ipwhois.app/json/${IP}`)
+		fetch(`https://ipwhois.app/json/${IP}`)
 			.then((res) => res.json())
 			.then((data) => (data.success ? setIpInfo(data) : handleError()))
 			.catch((err) => handleError());
